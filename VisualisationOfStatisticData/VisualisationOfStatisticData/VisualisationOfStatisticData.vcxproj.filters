@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File Work">
+      <UniqueIdentifier>{4e9dbb2e-2ad2-4df5-b1c3-0a4cdae47331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Work\Headers">
+      <UniqueIdentifier>{79cb3597-dbbd-4a7d-ac7c-44163993b2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Work\Source">
+      <UniqueIdentifier>{80f6961c-6dbb-427c-bbc9-931bbb48913c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Convertors">
+      <UniqueIdentifier>{143bffc5-6463-4afa-b7f3-d6a8e381a075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Convertors\Headers">
+      <UniqueIdentifier>{8b0af6f8-0a20-4400-8743-93c9d1a779db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Convertors\Source">
+      <UniqueIdentifier>{b8d5a59a-4456-47b3-8d9f-311c4555544c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Access Layer">
+      <UniqueIdentifier>{0ef2ce24-a995-4c1c-85bd-35e85242f03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Access Layer\Headers">
+      <UniqueIdentifier>{d35606f6-c5d6-4455-800e-ac75e108ccbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Access Layer\Source">
+      <UniqueIdentifier>{8cdd57fe-7a28-425d-bdd7-e622325c3567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualization">
+      <UniqueIdentifier>{c7ee9f20-40dc-4f02-8f5d-c06156d82f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualization\Headers">
+      <UniqueIdentifier>{5ce6ba87-8987-42a6-9941-3ea46f63c38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visualization\Source">
+      <UniqueIdentifier>{a21445af-52b7-470c-85df-281c7a7be705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{a9cfcc24-dfcb-4636-8951-df3decc20aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Headers">
+      <UniqueIdentifier>{3088e3ed-ea76-445d-8492-455ee3203530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Source">
+      <UniqueIdentifier>{90cb3a35-b246-4c15-83ff-61c5536ab282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{a9508b41-c3d1-44a9-bac4-f0cc20c8617a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Headers">
+      <UniqueIdentifier>{1bf9857e-0072-4daa-930c-0e507221f5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Source">
+      <UniqueIdentifier>{2a9fdeb8-5c34-428f-8e56-5c9f05f6948b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help Stuff">
+      <UniqueIdentifier>{1043b723-7e28-4e74-84e0-4800c547c084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinApi">
+      <UniqueIdentifier>{1a5a5918-fa96-4372-a81e-e5aef85761fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinApi\Headers">
+      <UniqueIdentifier>{a212b8f2-d4bd-4ab7-828c-063780ab420d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinApi\Source">
+      <UniqueIdentifier>{48f5206b-fd02-408a-bd23-3d6aa3c19cd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualisationOfStatisticData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>File Work\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>File Work\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorIntToStringConverter.h">
+      <Filter>Convertors\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorStringToIntConverter.h">
+      <Filter>Convertors\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CharToVectorConverter.h">
+      <Filter>Convertors\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCatcher.h">
+      <Filter>Data Access Layer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGenerator.h">
+      <Filter>Data Access Layer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>Visualization\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigReader.h">
+      <Filter>Config\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Config\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FrequencyCounter.h">
+      <Filter>Logic\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Help Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Help Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApi.h">
+      <Filter>WinApi\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticDataResolver.hpp">
+      <Filter>Logic\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VisualisationOfStatisticData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>File Work\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>File Work\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorIntToStringConverter.cpp">
+      <Filter>Convertors\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorStringToIntConverter.cpp">
+      <Filter>Convertors\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CharToVectorConverter.cpp">
+      <Filter>Convertors\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataGenerator.cpp">
+      <Filter>Data Access Layer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCatcher.cpp">
+      <Filter>Data Access Layer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigReader.cpp">
+      <Filter>Config\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>Visualization\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FrequencyCounter.cpp">
+      <Filter>Logic\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApi.cpp">
+      <Filter>WinApi\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticDataResolver.cpp">
+      <Filter>Logic\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VisualisationOfStatisticData.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualisationOfStatisticData.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DrawerConfig.ini">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

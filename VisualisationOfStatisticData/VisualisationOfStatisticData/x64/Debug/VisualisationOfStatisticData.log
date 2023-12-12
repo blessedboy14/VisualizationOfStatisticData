@@ -1,0 +1,4 @@
+﻿  FileWriter.cpp
+D:\BSUIR\SP\VisualisationOfStatisticData\VisualisationOfStatisticData\FileWriter.cpp(22,79): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\BSUIR\SP\VisualisationOfStatisticData\VisualisationOfStatisticData\FileWriter.cpp(17,12): warning C4101: 'fileData': unreferenced local variable
+  VisualisationOfStatisticData.vcxproj -> D:\BSUIR\SP\VisualisationOfStatisticData\x64\Debug\VisualisationOfStatisticData.exe
